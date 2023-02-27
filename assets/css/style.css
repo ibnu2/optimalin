@@ -626,10 +626,30 @@ section {
   max-width: 200px !important; 
   margin-left: 35%; 
 }
+
+.about .margin{
+  width:83% !important; 
+  margin-left: 7%;
+  margin-top: -7%;
+}
+
+.about .box-margin{
+  margin-bottom: -10%;
+}
+
 @media (max-width: 992px) {
   .about .image{
     margin-left: 45%; 
     margin-top: 7%;
+  }
+  .about .margin{
+    width:72% !important; 
+    margin-left: 12%;
+    margin-top: -5%;
+  }
+  
+  .about .box-margin{
+    margin-bottom: -5%;
   }
 } 
 
@@ -639,12 +659,31 @@ section {
     margin-left: 35%; 
   }
 
+  .about .margin{
+    width:72% !important; 
+    margin-left: 7%;
+    margin-top: -5%;
+  }
+  
+  .about .box-margin{
+    margin-bottom: -3%;
+  }
 }
 
 @media (max-width: 420px) {
   .about .image{
     margin-left: 20%; 
     margin-bottom: 2%;
+  }
+
+  .about .margin{
+    width:73% !important; 
+    margin-left: 12%;
+    margin-top: -5%;
+  }
+  
+  .about .box-margin{
+    margin-bottom: -3%;
   }
 }
 
